@@ -6,6 +6,8 @@ Denarri::Application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
 
+  get 'about' => 'pages#about'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

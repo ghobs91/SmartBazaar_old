@@ -1,17 +1,13 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
 #nav-bar {
 	width: 100%;
+	font-size: 18px;
 }
 
 #nav-bar li {
 	display: inline;
 }
 
-.pull-right {
-	float: right;
+#nav-bar > ul li + li {
+	border-left: solid 2px black;
+	padding-left: 4px;
 }

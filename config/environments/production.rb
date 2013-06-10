@@ -20,7 +20,7 @@ Denarri::Application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
@@ -36,17 +36,16 @@ Denarri::Application.configure do
   config.assets.version = '1.0'
 
   #DEVISE SETUP, change host to real host when deploying 
-  #config.action_mailer.default_url_options = { :host => 'http://yoursite.herokuapp.com' }
-  #config.action_mailer.delivery_method = :smtp
-  #config.action_mailer.smtp_settings = { 
-  #  :address => 'smtp.gmail.com',
-  #  :port => 587,
-  #  domain: ENV['GMAIL_DOMAIN'],
-  #  authentication: 'plain',
-  #  enable_starttls_auto: true,
-  #  user_name: ENV['GMAIL_USERNAME'],
-  #  password: ENV['GMAIL_PASSWORD']
-  #}
+  config.action_mailer.default_url_options = { :host => 'http://denarri.herokuapp.com' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { 
+    :address => 'smtp.gmail.com',
+    :port => 587,
+    authentication: 'plain',
+    enable_starttls_auto: true,
+    user_name: ENV['GMAIL_USERNAME'],
+    password: ENV['GMAIL_PASSWORD']
+  }
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache

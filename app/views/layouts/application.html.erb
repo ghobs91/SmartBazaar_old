@@ -8,17 +8,25 @@
 </head>
 <body>
 
-<div id='nav-bar'>
+<div id="nav-bar">
 	<ul>
-		<li><a href='/'>Denarri</a></li>
-		<li><a href='/about'>About Us</a></li>
-		<li><a href='#'>How It Works</a></li>
+		<li><a href="/">Denarri</a></li>
+		<li><a href="/about">About Us</a></li>
+		<li><a href="#">How It Works</a></li>
 		<div class="pull-right">
-			<li><a href='#'>Log In</a></li>
-			<li><a href='#'>Sign Up</a></li>
+			<% if user_signed_in? %>
+				<li><%= link_to "#{current_user.email}", users_show_path(:id => current_user.id) %></li>
+				<li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
+			<% else %>
+				<li><a href="/users/sign_in">Log In</a></li>
+				<li><a href="/users/sign_up">Sign Up</a></li>
+			<% end %>
 		</div>
 	</ul>
 </div>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 <%= yield %>
 

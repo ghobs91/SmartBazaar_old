@@ -1,4 +1,7 @@
 Denarri::Application.routes.draw do
+  get "users/index" => 'users#index', as: :users_index
+  get "users/show" => 'users#show', as: :users_show
+  devise_for :users, :controllers => { :registrations => 'users/registrations' }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

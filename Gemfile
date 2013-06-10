@@ -32,6 +32,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#foreman used for environment variables in dev, will set manually in heroku
+group :development, :test do
+	gem 'foreman'
+end
+
+# Use devise gem for user authentication
+gem 'devise', '3.0.0.rc'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

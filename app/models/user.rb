@@ -5,8 +5,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-  validates_presence_of :email, :password, :password_confirmation, :first_name, :last_name
-  validates_uniqueness_of :email
+  validates :email, :presence => true, :uniqueness => true
+  validates_presence_of :password, :password_confirmation, :first_name, :last_name
 
   def admin?
   	return self.role

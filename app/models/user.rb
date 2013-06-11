@@ -6,4 +6,10 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
   validates_presence_of :email, :password, :password_confirmation, :first_name, :last_name
+  validates_uniqueness_of :email
+
+  def admin?
+  	return self.role
+  end
+
 end

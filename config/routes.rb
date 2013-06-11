@@ -1,4 +1,5 @@
 Denarri::Application.routes.draw do
+
   get "users/index" => 'users#index', as: :users_index
   get "users/show" => 'users#show', as: :users_show
   devise_for :users, :controllers => { :registrations => 'users/registrations' }
@@ -10,6 +11,7 @@ Denarri::Application.routes.draw do
   root 'pages#home'
 
   get 'about' => 'pages#about'
+  get 'how' => 'pages#how_it_works'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

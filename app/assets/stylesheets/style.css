@@ -1,3 +1,29 @@
+body {
+	font-family: Georgia, Serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.notice {
+	background-color: yellow;
+}
+
+.alert {
+	background-color: red;
+}
+
 #nav-bar {
 	width: 100%;
 	font-size: 18px;

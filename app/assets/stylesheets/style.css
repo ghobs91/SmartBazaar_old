@@ -49,3 +49,18 @@ ul {
 #nav-bar > ul li > a {
 	text-decoration: none;
 }
+
+.shadow {
+	-moz-box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(255,255,255,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}

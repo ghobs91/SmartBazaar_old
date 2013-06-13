@@ -2,7 +2,7 @@
 // All this logic will automatically be available in application.js.
 // You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(window).ready(function(){
+$(document).ready(function(){
 	home.init();
 });
 
@@ -42,4 +42,8 @@ home = {
 			parent.find('#home-page-search').attr('data-search', 'browse');
 		});
 	}
+}
+
+function search_submit(){
+	alert($('#home-page-search').val());
 }

@@ -1,16 +1,14 @@
-<script>
-	home.init();
-</script>
+<%= javascript_include_tag params[:controller] %>
 
 <a href='/users/index'>Users Index</a>
 
 <div id='home-page' class='centered'>
 	<h1 id='home-page-header'>Denarri</h1>
-	<a href='#' id='buy-btn' class='button home-button shadow no-text-decoration' target='_self'>Buy</a>
-	<a href='#' id='sell-btn' class='button home-button shadow no-text-decoration' target='_self'>Sell</a>
-	<a href='#' id='browse-btn' class='button home-button shadow no-text-decoration' target='_self'>Browse</a>
-	<form action="">
-		<input type="text" class="home-search shadow" name="search" value="" placeholder="enter search term here..." />
+	<a href='#' id='buy-btn' class='button home-button shadow' target='_self'>Buy</a>
+	<a href='#' id='sell-btn' class='button home-button shadow' target='_self'>Sell</a>
+	<a href='#' id='browse-btn' class='button home-button shadow' target='_self'>Browse</a>
+	<form action=''>
+		<input type='text' id='home-page-search' class='shadow' name='search' placeholder='enter search term here...' data-search='buy' />
 	</form>
 	<div class='arrow-up'></div>
 </div>

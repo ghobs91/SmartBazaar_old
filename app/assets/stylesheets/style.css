@@ -1,6 +1,6 @@
 body {
 	font-family: Georgia, Serif;
-	background-image: url('http://static.travelblog.org/Wallpaper/pix/waterfall_desktop_background-1600x1200.jpg');
+	//background-image: url('http://static.travelblog.org/Wallpaper/pix/waterfall_desktop_background-1600x1200.jpg');
 }
 
 ul {
@@ -17,16 +17,22 @@ ul {
 	float: left;
 }
 
+.alert-box {
+	border-radius: 5px;
+	text-align: center;
+	padding: 1px;
+	width: 500px;
+	margin-left: 30%;
+}
+
 .notice {
-	background-color: yellow;
+	background-color: rgb(251, 255, 213);
+	border: 2px solid rgb(255, 245, 124);
 }
 
 .alert {
-	background-color: red;
-}
-
-.no-text-decoration {
-	text-decoration: none;
+	background-color: rgb(255, 142, 142);
+	border: 2px solid rgb(255, 107, 107);
 }
 
 #nav-bar {

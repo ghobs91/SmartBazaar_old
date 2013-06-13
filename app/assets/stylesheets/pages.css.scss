@@ -4,10 +4,12 @@
 
 #home-page.centered {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -190px;
-  margin-left: -275px;
+  //top: 50%;
+  //left: 50%;
+  top: 30%;
+  left: 30%;
+  //margin-top: -190px;
+  //margin-left: -275px;
 }
 
 #home-page-header {
@@ -38,9 +40,10 @@
 .home-button {
 	padding: 20px 40px 20px 40px;
 	margin-right: 100px;
+	text-decoration: none;
 }
 
-.home-search {
+#home-page-search {
 	width: 83%;
 	height: 30px;
 	margin-top: 50px;

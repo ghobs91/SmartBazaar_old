@@ -1,14 +1,16 @@
-<h1><%= @user.email %></h1>
-<p>Find me in app/views/users/show.html.erb</p>
-<p> <%= full_name(@user) %>'s profile. This is where user profiles will be </p>
-<% if @user.id == current_user.id %>
-	<%= link_to "Edit My Profile", edit_user_registration_path %>
-<% end %>
-
-<h3>
-	<% if @user.admin? %>
-		This user is an admin!
-	<% else %>
-		This user is not an admin!
+<div id='user-profile'>
+	<% if @user.id == current_user.id %>
+		<%= link_to "Edit My Profile", edit_user_registration_path, id: 'edit-my-profile-link', class: 'pull-right' %>
 	<% end %>
-</h3>
+
+	<h1><%= full_name(@user) %>'s Profile</h1>
+	<h2><%= @user.email %></h2>
+	<h4>
+		<% if @user.admin? %>
+			This user is an admin!
+		<% else %>
+			This user is not an admin!
+		<% end %>
+	</h5>
+	<p> This is where user profiles will be </p>
+</div>

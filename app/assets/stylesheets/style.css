@@ -1,6 +1,7 @@
 body {
 	font-family: Roboto, Arial;
-	background-image: url("low_contrast_linen.png"); 
+	//background-image: url("low_contrast_linen.png"); 
+	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/low_contrast_linen.png");
 	font-weight: 200;
 }
 
@@ -55,6 +56,16 @@ ul {
 
 #nav-bar > ul li > a {
 	text-decoration: none;
+}
+
+#content {
+	color: white;
+}
+
+#main {
+	background-color: white;
+	margin-top: 20px;
+	padding-left: 20px;
 }
 
 .shadow {

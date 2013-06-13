@@ -1,6 +1,7 @@
 body {
-	font-family: Georgia, Serif;
-	background-image: url('http://static.travelblog.org/Wallpaper/pix/waterfall_desktop_background-1600x1200.jpg');
+	font-family: Roboto, Arial;
+	background-image: url("low_contrast_linen.png"); 
+	font-weight: 200;
 }
 
 ul {

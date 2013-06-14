@@ -4,7 +4,9 @@
 
 $(document).ready(function(){
 	home.init();
-	alerts.init();
+
+	$('.alert').fadeOut(5000);
+	$('.notice').fadeOut(5000);
 });
 
 home = {
@@ -26,7 +28,7 @@ home = {
 		$("#sell-btn").bind({
 			click: function(){
 				var parent = $(this).parent();
-				parent.children('.arrow-up').animate({ marginLeft: '245px' }, 600);
+				parent.children('.arrow-up').animate({ marginLeft: '280px' }, 600);
 				parent.find('#home-page-search').attr('data-search', 'sell');
 			},
 			mouseenter: function(){
@@ -39,16 +41,8 @@ home = {
 
 		$("#browse-btn").bind("click", function(){
 			var parent = $(this).parent();
-			parent.children('.arrow-up').animate({ marginLeft: '470px' }, 600);
+			parent.children('.arrow-up').animate({ marginLeft: '515px' }, 600);
 			parent.find('#home-page-search').attr('data-search', 'browse');
-		});
-	}
-}
-
-alerts = {
-	init: function(){
-		$(".close-alert-box").bind("click", function(){
-			//$(this).css('display','none');
 		});
 	}
 }

@@ -1,8 +1,6 @@
 body {
 	font-family: Roboto, Arial;
-	//background-image: url("low_contrast_linen.png"); 
 	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/low_contrast_linen.png");
-	font-weight: 200;
 }
 
 ul {
@@ -24,7 +22,9 @@ ul {
 	text-align: center;
 	padding: 5px;
 	width: 500px;
-	margin-left: 31.5%;
+	position: absolute;
+	left: 50%;
+	margin-left: -257px;
 	color: black;
 }
 
@@ -44,6 +44,7 @@ ul {
 	background-color: white;
 	padding: 10px 15px 10px 7px;
 	margin: -10px 0 0 -7px;
+	min-width: 680px;
 }
 
 #nav-bar li {

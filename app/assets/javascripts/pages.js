@@ -4,6 +4,7 @@
 
 $(document).ready(function(){
 	home.init();
+	alerts.init();
 });
 
 home = {
@@ -40,6 +41,14 @@ home = {
 			var parent = $(this).parent();
 			parent.children('.arrow-up').animate({ marginLeft: '470px' }, 600);
 			parent.find('#home-page-search').attr('data-search', 'browse');
+		});
+	}
+}
+
+alerts = {
+	init: function(){
+		$(".close-alert-box").bind("click", function(){
+			//$(this).css('display','none');
 		});
 	}
 }

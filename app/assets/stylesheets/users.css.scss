@@ -5,4 +5,43 @@
 #edit-my-profile-link {
 	padding-top: 10px;
 	padding-right: 10px;
+	color: white;
+}
+
+.left-third {
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding-top: 100px;
+	min-width: 250px;
+}
+
+.right-two-thirds {
+	width: 66%;
+	float: right;
+	text-align: center;
+	padding-top: 40px;
+	margin: 50px;
+}
+
+#user-name {
+	margin: 0;
+}
+
+#user-email {
+	margin: 2px;
+}
+
+#item-feed {
+	margin-bottom: 50px;
+}
+
+.user-profile-well {
+	width: 600px;
+	border: 1px solid white;
+	height: 150px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 10px;
 }

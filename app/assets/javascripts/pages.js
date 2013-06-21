@@ -16,6 +16,7 @@ home = {
 				var parent = $(this).parent();
 				parent.children('.arrow-up').animate({ marginLeft: '35px' }, 600);
 				parent.find('#home-page-search').attr('data-search', 'buy');
+				parent.find('#home-page-search-form').attr('action', 'buy');
 			},
 			mouseenter: function(){
 				$(this).css('position','relative');
@@ -30,6 +31,7 @@ home = {
 				var parent = $(this).parent();
 				parent.children('.arrow-up').animate({ marginLeft: '280px' }, 600);
 				parent.find('#home-page-search').attr('data-search', 'sell');
+				parent.find('#home-page-search-form').attr('action', 'sell');
 			},
 			mouseenter: function(){
 				$(this).css('position','relative');
@@ -43,10 +45,7 @@ home = {
 			var parent = $(this).parent();
 			parent.children('.arrow-up').animate({ marginLeft: '515px' }, 600);
 			parent.find('#home-page-search').attr('data-search', 'browse');
+			parent.find('#home-page-search-form').attr('action', 'browse');
 		});
 	}
-}
-
-function search_submit(){
-	alert($('#home-page-search').val());
 }

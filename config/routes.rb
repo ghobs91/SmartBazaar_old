@@ -13,6 +13,10 @@ Denarri::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'how' => 'pages#how_it_works'
 
+  get 'buy' => 'search#buy'
+  get 'sell' => 'search#sell'
+  get 'browse' => 'search#browse'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

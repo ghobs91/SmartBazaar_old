@@ -1,0 +1,20 @@
+<h1 class='centered-text'> Sell Item	</h1>
+<form id='sell-item-form' action='sell' method='post'>
+		Item Name: <input type='text' name='product-title' value='<%= @query %>'>
+		<br />
+		Condition: <select name="product-condition">
+								<option value="New" selected>New</option>
+								<option value="Used">Used</option>
+							 </select>
+		<br />
+		My Price: $<input type='text' name='product-price' placeholder='100'>
+		<br />
+		Shipping: $<input type='text' name='product-shipping-cost' placeholder='10'>
+		<input type='checkbox' name='free-shipping'>Free Shipping
+		<br />
+		Description: <textarea name='product-description'></textarea>
+		<br />
+		Picture: <input type='file' name='product-picture'>
+		<br />
+		<input type='submit' value='Sell'>
+</form>

@@ -38,6 +38,10 @@ ul {
 	border: 2px solid rgb(255, 107, 107);
 }
 
+.centered-text {
+	text-align:	center;
+}
+
 #nav-bar {
 	width: 100%;
 	font-size: 18px;

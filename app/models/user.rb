@@ -8,8 +8,10 @@ class User < ActiveRecord::Base
   validates :email, :presence => true, :uniqueness => true
   validates_presence_of :password, :password_confirmation, :first_name, :last_name
 
+  has_many :products, foreign_key: "seller_id"
+
   def admin?
-  	return self.role
+  	return self.role == 1
   end
 
 end

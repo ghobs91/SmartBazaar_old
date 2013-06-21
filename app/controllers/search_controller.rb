@@ -7,6 +7,7 @@ class SearchController < ApplicationController
 
   def sell
   	@query = params[:query]
+  	@product = Product.new
   end
 
   def browse

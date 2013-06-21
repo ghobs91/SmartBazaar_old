@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  condition: MyString
+  price: 1
+  shipping_cost: 1
+  free_shipping: 1
+  description: MyText
+  post_date: 2013-06-21 14:40:59
+
+two:
+  name: MyString
+  condition: MyString
+  price: 1
+  shipping_cost: 1
+  free_shipping: 1
+  description: MyText
+  post_date: 2013-06-21 14:40:59

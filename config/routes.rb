@@ -1,5 +1,7 @@
 Denarri::Application.routes.draw do
 
+  resources :products
+
   get "users/index" => 'users#index', as: :users_index
   get "users/show" => 'users#show', as: :users_show
   devise_for :users, :controllers => { :registrations => 'users/registrations' }

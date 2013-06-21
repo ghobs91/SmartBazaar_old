@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @product.condition %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Shipping cost:</strong>
+  <%= @product.shipping_cost %>
+</p>
+
+<p>
+  <strong>Free shipping:</strong>
+  <%= @product.free_shipping %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Post date:</strong>
+  <%= @product.post_date %>
+</p>
+
+<p>
+  <strong>Seller Id:</strong>
+  <%= @product.seller_id %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

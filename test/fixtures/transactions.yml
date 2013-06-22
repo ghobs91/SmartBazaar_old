@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  buyer_id: 1
+  product_id: 1
+  purchase_date: 2013-06-21 17:03:51
+
+two:
+  buyer_id: 1
+  product_id: 1
+  purchase_date: 2013-06-21 17:03:51

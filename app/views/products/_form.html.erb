@@ -41,7 +41,7 @@
   </div>
   <div class="field">
     <%= f.label :post_date %><br>
-    <%= f.datetime_select :post_date %>
+    <%= f.datetime_select :post_date, :ampm => true, :default => 0.days.from_now.in_time_zone(current_user.time_zone) %>
   </div>
   <div class="actions">
     <%= f.submit %>

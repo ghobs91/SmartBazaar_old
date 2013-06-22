@@ -29,7 +29,7 @@
     $<%= f.number_field :price, :placeholder => 100 %>
   </div>
   <div class="field">
-    <%= f.label :shipping_cost %><br>
+    <%= f.label :shipping_cost %><i> (If free put 0 and check below)</i><br>
     $<%= f.number_field :shipping_cost, :placeholder => 10 %>
   </div>
   <div class="field">
@@ -42,7 +42,7 @@
   </div>
   <div class="field">
     <%= f.label :post_date %><br>
-    <%= f.datetime_select :post_date %>
+    <%= f.datetime_select :post_date, :ampm => true, :default => 0.days.from_now.in_time_zone(current_user.time_zone) %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
   validates :email, :presence => true, :uniqueness => true
-  validates_presence_of :password, :password_confirmation, :first_name, :last_name
+  validates_presence_of :first_name, :last_name
 
   has_many :products, foreign_key: "seller_id"
   has_many :transactions, foreign_key: "buyer_id"

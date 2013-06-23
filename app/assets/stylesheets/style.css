@@ -68,6 +68,10 @@ ul {
 	color: white;
 }
 
+#content a {
+	text-decoration: none;
+}
+
 #main {
 	background-color: white;
 	margin-top: 20px;

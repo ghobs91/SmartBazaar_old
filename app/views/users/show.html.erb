@@ -17,5 +17,13 @@
 		</div>
 		<h4>Item Feed</h4>
 		<div id='item-feed' class='user-profile-well'>
+			<ul>
+				<% @user.products.each do |product| %>
+					<li><%= link_to product.name, product %></li>
+				<% end %>
+				<% for i in 0...100 %>
+					<li><%= i %></li>
+				<% end %>
+			</ul>
 		</div>
 	</div>

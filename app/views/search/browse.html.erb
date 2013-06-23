@@ -1,7 +1,9 @@
-<h1 class='centered-text'>Browse: <%= @query %></h1>
+<div id='browse-page'>
+	<h1 class='centered-text'>Browse: <%= @query %></h1>
 
-<% for product in @products %>
-	<ul>
-		<li><%= link_to product.name, product %></li>
-	</ul>
-<% end %>
+	<% for product in @products %>
+		<ul>
+			<li><%= link_to product.name, product %></li>
+		</ul>
+	<% end %>
+</div>

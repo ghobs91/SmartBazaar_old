@@ -1,51 +1,51 @@
-<h1 class='centered-text'> Sell Item	</h1>
-<%= form_for(@product) do |f| %>
-  <% if @product.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+<div id='sell-page'>
+  <h1 class='centered-text'> Sell Item	</h1>
+  <%= form_for(@product) do |f| %>
+    <% if @product.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
 
-      <ul>
-      <% @product.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+        <ul>
+        <% @product.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.hidden_field :seller_id, :value => current_user.id %>
+    </div>
+
+    <div class="field">
+      <%= f.label :name %><br>
+      <%= f.text_field :name, :value => @query %>
+    </div>
+    <div class="field">
+      <%= f.label :condition %><br>
+    	<%= f.select(:condition, options_for_select(['New', 'Used'])) %>
+    </div>
+    <div class="field">
+      <%= f.label :price %><br>
+      $<%= f.number_field :price, :placeholder => 100 %>
+    </div>
+    <div class="field">
+      <%= f.label :shipping_cost %><i> (If free put 0 and check below)</i><br>
+      $<%= f.number_field :shipping_cost, :placeholder => 10 %>
+    </div>
+    <div class="field">
+      <%= f.check_box :free_shipping %>
+      <%= f.label :free_shipping %>
+    </div>
+    <div class="field">
+      <%= f.label :description %><br>
+      <%= f.text_area :description %>
+    </div>
+    <div class="field">
+      <%= f.date_select :post_date, :ampm => true, :default => 0.days.from_now.in_time_zone(current_user.time_zone), :discard_day => true, :discard_month => true, :discard_year => true %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.hidden_field :seller_id, :value => current_user.id %>
-  </div>
-
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name, :value => @query %>
-  </div>
-  <div class="field">
-    <%= f.label :condition %><br>
-  	<%= f.select(:condition, options_for_select(['New', 'Used'])) %>
-  </div>
-  <div class="field">
-    <%= f.label :price %><br>
-    $<%= f.number_field :price, :placeholder => 100 %>
-  </div>
-  <div class="field">
-    <%= f.label :shipping_cost %><i> (If free put 0 and check below)</i><br>
-    $<%= f.number_field :shipping_cost, :placeholder => 10 %>
-  </div>
-  <div class="field">
-    <%= f.check_box :free_shipping %>
-    <%= f.label :free_shipping %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :post_date %><br>
-    <%= f.datetime_select :post_date, :ampm => true, :default => 0.days.from_now.in_time_zone(current_user.time_zone) %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
-
+</div>

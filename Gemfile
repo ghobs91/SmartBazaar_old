@@ -41,6 +41,9 @@ end
 # Use devise gem for user authentication
 gem 'devise', '3.0.0.rc'
 
+# serving static assets with rails 4 and logging
+gem 'rails_12factor'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

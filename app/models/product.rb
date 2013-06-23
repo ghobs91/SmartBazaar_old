@@ -3,4 +3,8 @@ class Product < ActiveRecord::Base
 
   belongs_to :seller, class_name: "User"
   has_one :transaction
+
+  def self.search_name(query)
+  	return self.where("name like ?", "%#{query}%")
+  end
 end

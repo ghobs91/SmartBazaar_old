@@ -12,5 +12,6 @@ class SearchController < ApplicationController
 
   def browse
   	@query = params[:query]
+  	@products = Product.search_name(@query)
   end
 end

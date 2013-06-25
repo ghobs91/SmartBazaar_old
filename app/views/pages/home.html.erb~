@@ -3,7 +3,7 @@
 </script>
 
 <div id='home-page' class='centered'>
-	<h1 id='home-page-header'>Denarri</h1>
+	<h1 id='home-page-header'>Denarri.</h1>
 	<a href='#' id='buy-btn' class='button home-button shadow' target='_self'>Buy</a>
 	<a href='#' id='sell-btn' class='button home-button shadow' target='_self'>Sell</a>
 	<a href='#' id='browse-btn' class='button home-button shadow' target='_self'>Browse</a>

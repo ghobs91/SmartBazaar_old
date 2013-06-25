@@ -10,7 +10,8 @@ development:
   database: denarri_production
   pool: 5
   username: root
-  socket: /tmp/mysql.sock
+  password: chris777
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,7 +23,8 @@ test:
   database: denarri_test
   pool: 5
   username: root
-  socket: /tmp/mysql.sock
+  password: chris777
+  host: localhost
 
 production:
   adapter: mysql2
@@ -31,4 +33,5 @@ production:
   database: denarri_production
   pool: 5
   username: root
-  socket: /tmp/mysql.sock
+  password: chris777
+  host: localhost

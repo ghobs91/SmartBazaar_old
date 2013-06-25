@@ -49,6 +49,7 @@ ul {
 	padding: 10px 15px 10px 7px;
 	margin: -10px 0 0 -7px;
 	min-width: 680px;
+	text-decoration: none;
 }
 
 #nav-bar li {
@@ -56,8 +57,9 @@ ul {
 }
 
 #nav-bar > ul li + li {
-	border-left: solid 2px black;
+	border-left: 0;
 	padding-left: 4px;
+	text-decoration: none;
 }
 
 #nav-bar > ul li > a {

@@ -54,11 +54,11 @@ home = {
 how = {
 	init: function(){
 		$("#how-seller").css("display","none");
-		$("#buy-btn").bind("click", function(){
+		$("#how-buy-btn").bind("click", function(){
 			$("#how-seller").slideUp("fast");
 			$("#how-buyer").slideDown("fast");
 		});
-		$("#sell-btn").bind("click", function(){
+		$("#how-sell-btn").bind("click", function(){
 			$("#how-buyer").slideUp("fast");
 			$("#how-seller").slideDown("fast");
 		});

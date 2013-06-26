@@ -1,6 +1,8 @@
 body {
 	font-family: Roboto, Arial;
 	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 ul {

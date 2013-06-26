@@ -22,20 +22,58 @@
 
 #buy-btn {
 	margin-right: 130px;
+	text-shadow: 0px 1px 1px #ffffff;
+	border-bottom: 2px solid #b2b2b2;
+}
+#buy-btn:hover {
+	color: #333333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background-color: #64726c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAF7F8), to(#918D8E));
+	background: -moz-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -o-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -ms-linear-gradient(top, #FAF7F8, #918D8E);
 }
 
 #sell-btn {
 	margin-right: 106px;
+	text-shadow: 0px 1px 1px #ffffff;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+#sell-btn:hover {
+	color: #333333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background-color: #64726c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAF7F8), to(#918D8E));
+	background: -moz-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -o-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -ms-linear-gradient(top, #FAF7F8, #918D8E);
 }
 
 #browse-btn {
 	margin-right: 0;
+	text-shadow: 0px 1px 1px #ffffff;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+#browse-btn:hover {
+	color: #333333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background-color: #64726c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAF7F8), to(#918D8E));
+	background: -moz-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -o-linear-gradient(top, #FAF7F8, #918D8E);
+	background: -ms-linear-gradient(top, #FAF7F8, #918D8E);
 }
 
 .button {
 	font-family: Roboto, Helvetica, sans-serif;
 	font-size: 16px;
-	color: #000000;
+	color: rgb(75, 71, 71);
 	padding: 10px 20px;
 	background: -moz-linear-gradient(
 		top,

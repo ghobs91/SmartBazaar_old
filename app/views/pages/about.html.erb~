@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>About Us</title>
-</head>
-<body id="about-us">
-
 <div id="about-page">
 	<h1 class='about-page-header'>- The Team -</h1>
 	<div id='the-team'>
@@ -26,4 +19,3 @@
 		<p id='about-page-paragraph'>Denarri began as a casual conversation between two cousins about their frustrations with the state of e-commerce. If you wanted a really good deal, your best bet was to use an auction site, and this meant spending days keeping track of an item that you weren't even guaranteed to win. As a seller, you either had to risk selling your item for a less than stellar price, or put a reserve price and scare all your potential customers away. Chris then remembered spending much of his childhood playing an online role-playing game which included a marketplace with a much more seamless setup. You selected the item you wished to purchase, set a price range you’d be willing to pay, and waited for the market to automatically match you with a seller. No constant browsing, no auctions, no headache. The Denarius was the currency used in the Roman Empire, and helped form the foundation for modern commerce. We believe Denarri is the next evolution in commerce, and can’t wait for you to join us!</p>
 	</div>
 </div>
-</body>

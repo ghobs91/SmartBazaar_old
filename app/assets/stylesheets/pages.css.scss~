@@ -127,8 +127,8 @@
 img.icon-links {
 	margin-top: 5px;
 	margin-left: 5px;
-	height: 18px;
-	width: 18px; 
+	height: 19px;
+	width: 19px; 
 	align: left;
 	border: 0;
 }
@@ -188,4 +188,9 @@ img.align-right {
 	margin-left: 100px;
 }
 
+#browse-filters li {
+	display: inline;
+	padding-right:20px;
+}
+	
 

@@ -57,16 +57,17 @@ ul {
 	min-width: 680px;
 	text-decoration: none;
 	-moz-box-shadow:
-		0px 0px 10px 0px #000000;		
+		0px 0px 15px 0px #000000;		
 	-webkit-box-shadow:
-		0px 0px 10px 0px #000000;		
+		0px 0px 15px 0px #000000;		
 	box-shadow:
-		0px 0px 10px 0px #000000;
+		0px 0px 15px 0px #000000;
 		
 }
 
 #nav-bar li {
 	display: inline;
+	padding-right: 5px;
 }
 
 #nav-bar > ul li + li {

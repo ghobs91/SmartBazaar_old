@@ -1,5 +1,9 @@
 body {
 	font-family: Roboto, Arial;
+	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/low_contrast_linen.png");
+}
+
+body#home-page {
 	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -53,11 +57,11 @@ ul {
 	min-width: 680px;
 	text-decoration: none;
 	-moz-box-shadow:
-		0px 0px 10px 0px #000000;		
+		0px 0px 15px 0px #000000;		
 	-webkit-box-shadow:
-		0px 0px 10px 0px #000000;		
+		0px 0px 15px 0px #000000;		
 	box-shadow:
-		0px 0px 10px 0px #000000;
+		0px 0px 15px 0px #000000;
 		
 }
 

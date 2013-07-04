@@ -2,7 +2,7 @@
 	home.init();
 </script>
 <head>
-<link rel="icon" href="https://raw.github.com/ghobs91/Denarri/master/app/assets/images/favicon.png"/>
+<link rel="icon" href="https://raw.github.com/ghobs91/Denarri/master/app/assets/images/logo.png"/>
 </head>
 
 <body id='home-page'>

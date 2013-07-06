@@ -1,0 +1,351 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+#home-page.centered {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 50px; }
+
+#home-page-header {
+  color: white;
+  text-align: center;
+  margin: 0 0 50px 0;
+  position: relative;
+  top: -80px;
+  left: 0px; }
+
+#buy-btn {
+  margin-right: 130px;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2; }
+
+#sell-btn {
+  margin-right: 106px;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2; }
+
+#browse-btn {
+  margin-right: 0;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2; }
+
+.button {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #4b4747;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(top, white 0%, white);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ffffff; }
+
+.button:hover {
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #64726c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#faf7f8), to(#e0dedf));
+  background: -moz-linear-gradient(top, #faf7f8, #e0dedf);
+  background: -o-linear-gradient(top, #faf7f8, #e0dedf);
+  background: -ms-linear-gradient(top, #faf7f8, #e0dedf); }
+
+.home-button {
+  padding: 20px 40px 20px 40px;
+  text-decoration: none; }
+
+#home-page-search {
+  width: 589px;
+  height: 30px;
+  margin-top: 50px;
+  padding-left: 10px;
+  border: solid 0px #000000;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+
+.about-page-header {
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#about-andrew {
+  margin-left: 11%;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 50px; }
+
+#about-chris {
+  margin-left: 11%;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-right: auto; }
+
+#about-neil {
+  margin-left: 11%;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-right: auto; }
+
+img.icon-links {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 19px;
+  width: 19px;
+  align: left;
+  border: 0; }
+
+img.about-us {
+  margin-right: 200px; }
+
+#about-page-story-header {
+  text-align: center; }
+
+#about-page-story {
+  text-align: center;
+  padding-left: 5em;
+  width: auto;
+  height: 100px;
+  padding-top: 350px; }
+
+#how-it-works {
+  font-family: Roboto, Helvetica, sans-serif;
+  width: 50%;
+  padding-left: 25%; }
+
+#how-page-header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 60px; }
+
+#search {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+#customize {
+  padding-bottom: 60px; }
+
+#get-matched {
+  padding-bottom: 60px; }
+
+#enjoy {
+  padding-bottom: 50px; }
+
+img.align-right {
+  float: right;
+  margin-left: 100px; }
+
+#browse-filters li {
+  display: inline;
+  padding-right: 20px; }
+div.field, div.actions {
+  margin-bottom: 10px; }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  #error_explanation ul li {
+    font-size: 12px;
+    list-style: square; }
+#browse-page a {
+  color: white; }
+body {
+	font-family: Roboto, Arial;
+	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/low_contrast_linen.png");
+}
+
+body#home-page {
+	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.alert-box {
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -257px;
+	color: black;
+}
+
+.notice {
+	background-color: rgb(251, 255, 213);
+	border: 2px solid rgb(255, 245, 124);
+}
+
+.alert {
+	background-color: rgb(255, 142, 142);
+	border: 2px solid rgb(255, 107, 107);
+}
+
+.centered-text {
+	text-align:	center;
+}
+
+#nav-bar {
+	width: 100%;
+	font-size: 16px;
+	background-color: white;
+	padding: 5px 15px 7px 10px;
+	margin: -10px 0 0 -7px;
+	min-width: 680px;
+	text-decoration: none;
+	-moz-box-shadow:
+		0px 0px 15px 0px #000000;		
+	-webkit-box-shadow:
+		0px 0px 15px 0px #000000;		
+	box-shadow:
+		0px 0px 15px 0px #000000;
+		
+}
+
+#nav-bar li {
+	display: inline;
+	padding-right: 5px;
+}
+
+#nav-bar > ul li + li {
+	border-left: 0;
+	padding-left: 4px;
+	text-decoration: none;
+}
+
+#nav-bar > ul li > a {
+	text-decoration: none;
+}
+
+#content {
+	color: white;
+}
+
+#content a {
+	text-decoration: none;
+}
+
+#main {
+	background-color: white;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.shadow {
+	-moz-box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		3px 3px 30px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(255,255,255,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 15px solid white;
+	margin-top: -45px;
+	margin-left: 35px;
+	position: relative;
+}
+#edit-my-profile-link {
+  padding-top: 10px;
+  padding-right: 10px;
+  color: white; }
+
+.left-third {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-top: 100px;
+  min-width: 250px; }
+
+.right-two-thirds {
+  width: 66%;
+  float: right;
+  text-align: center;
+  padding-top: 40px; }
+
+#user-name {
+  margin: 0; }
+
+#user-email {
+  margin: 2px; }
+
+#item-feed {
+  margin-bottom: 50px; }
+
+.user-profile-well {
+  width: 600px;
+  border: 1px solid white;
+  height: 150px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: auto; }

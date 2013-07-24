@@ -1,12 +1,15 @@
 <div id='buy-page'>
-	<h1 class='centered-text'>Buy: <%= @query %></h1>
 		<form action = "#" method = "get">
 			<fieldset>
-				<label class="title" for="my-price">My Price $</label>
-				<input type="text" name="my-price" id="price">
-				<br>
-				Condition
-				<select name="condition">
+				<h1 class='title'><%= @query %></h1>
+				<div id='price'>
+				<label class="title" for="price">My Price $</label>
+				<input type="text" name="price-high" id="price"> - 
+				<input type="text" name="price-low" id="price">
+				</div>				
+<br>
+				<label class="title" for="condition">Condition</label>
+				<select name="condition" style=width:60px;">
 					<option value="new">New</option>
 					<option value="used">Used</option>
 					<option value="barely-used">Barely Used</option>

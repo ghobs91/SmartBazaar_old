@@ -46,7 +46,7 @@
 	<input type="checkbox" name="paypal" checked="unchecked">
 	Paypal
 	</label>
-
+</div>
 </div>
 <div id='description-seller'>
     <h1 class='centered-text'>Description</h1>

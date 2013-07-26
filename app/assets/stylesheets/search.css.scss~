@@ -7,17 +7,112 @@
 }
 
 #buy-page {
-	width: 33%;
+	font-size: 115%;
+	width: 30%;
+	border-style:none;
+	float: left;
+}
+
+#recently-sold {
+	float: left;
+	width: 60%;
+	text-align: center;
 }
 
 .title {
 	margin-right: 15px;
-	margin-left: 20px;	
+	margin-left: 20px;
+}
+
+fieldset {
+	border: 0;
+}
+
+#item-name {
+	margin-top: 50px;	
 }
 
 #price {
 	position: relative;
+	margin-bottom: 40px;
+	margin-top: 35px;
+}
+
+#condition {
+	position: relative;
 	margin-bottom: 50px;
+}
+
+#distance {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#buy-filters ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	text-align: right;
+	margin-right: 20%;
+	font-size: 120%;
+}
+
+#buy-filters ul li {
+	display: inline;
+	padding: 25px;
+}
+
+input#price {
+	font-size: 120%;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+input#miles {
+	font-size: 120%;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+input#submit {
+	font-size: 120%;
+	margin-left: 30%;
+	color: #444444;
+	text-shadow: 0px 1px 1px #ffffff;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: inline;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #b2b2b2;
+	background-color: rgb(21, 241, 65);
+	background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+	background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+	background: -o-linear-gradient(top, #beeae9, #a8cfce);
+	background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+
+input#submit:hover {
+	color: #333333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background-color: #a0dbc4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+	background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+	background: -o-linear-gradient(top, #a8cfce, #beeae9);
+	background: -ms-linear-gradient(top, #a8cfce, #beeae9);
 }
 
 input[type="text"] {
@@ -26,4 +121,51 @@ input[type="text"] {
 	padding: 2px;
 	outline: none;
 }
+
+#sell-page {
+	width: 100%;
+}
+
+#item-name {
+	width: 33%;
+	float: left;
+}
+
+#description-seller {
+	width: 33%;
+	float: left;
+	display: inline
+}
+
+#pictures-seller {
+	width: 33%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	

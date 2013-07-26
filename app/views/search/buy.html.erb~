@@ -1,29 +1,4 @@
-<div id='buy-page'>
-		<form action = "#" method = "get">
-			<fieldset>
-				<h1 class='title'><%= @query %></h1>
-				<label class="title" for="price">My Price $</label>
-				<input type="text" name="price-high" id="price"> - 
-				<input type="text" name="price-low" id="price">
-				<br>
-				<label class="title" for="condition">Condition</label>
-				<select name="condition" style=width:60px;">
-					<option value="new">New</option>
-					<option value="used">Used</option>
-					<option value="barely-used">Barely Used</option>
-					<option value="moderately-used">Moderately Used</option>
-					<option value="heavily-used">Heavily Used</option>
-					<option value="refurbished">Refurbished</option>
-				</select>
-				<br>
-				<label class="title" for="miles">Maximum seller distance</label>
-				<input type="text" name="miles" id="miles">
-				Miles
-			</fieldset>
-		</form>
-			
-</div>
-	<div id="buy-filters">
+<div id="buy-filters">
 		<nav>
 			<ul>
 				<li>
@@ -41,8 +16,43 @@
 			</ul>
 		</nav>
 	</div>
-	<div id='recently-sold'>
-		<h1>Recently Sold Items</h1>
-	</div>
+<div id='buy-page'>
+		<form action = "#" method = "get">
+			<fieldset>
+				<h1 id ='item-name' class='title'><%= @query %></h1>
+				<div id='price'>
+				<label class="title" for="price">My Price $</label>
+				<input type="text" name="price-high" id="price"> - 
+				<input type="text" name="price-low" id="price">
+				</div>				
+<br>
+				<div id = 'condition'>
+				<label class="title" for="condition">Condition</label>
+				<select name="condition" style=width:60px;">
+					<option value="new">New</option>
+					<option value="used">Used</option>
+					<option value="barely-used">Barely Used</option>
+					<option value="moderately-used">Moderately Used</option>
+					<option value="heavily-used">Heavily Used</option>
+					<option value="refurbished">Refurbished</option>
+				</select>
+				</div>
+				<br>
+				<div id='distance'>
+				<label class="title" for="miles">Maximum seller distance</label>
+				<input type="text" name="miles" id="miles">
+				Miles
+				</div>
+				<input type="submit" value="submit" id="submit">
+			</fieldset>
+		</form>
+
+			
+</div>	
+<div id='recently-sold'>
+	<h1>Recently Sold Items</h1>
+</div>
+
+
 	
 

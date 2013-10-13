@@ -15,7 +15,11 @@ home = {
 		$("#buy-btn").bind({
 			click: function(){
 				var parent = $(this).parent();
+<<<<<<< HEAD
+				parent.children('.arrow-up').animate({ marginLeft: '168px' }, 600);
+=======
 				parent.children('.arrow-up').animate({ marginLeft: '35px' }, 600);
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 				parent.find('#home-page-search').attr('data-search', 'buy');
 				parent.find('#home-page-search-form').attr('action', 'buy');
 			},
@@ -30,7 +34,11 @@ home = {
 		$("#sell-btn").bind({
 			click: function(){
 				var parent = $(this).parent();
+<<<<<<< HEAD
+				parent.children('.arrow-up').animate({ marginLeft: '409px' }, 600);
+=======
 				parent.children('.arrow-up').animate({ marginLeft: '280px' }, 600);
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 				parent.find('#home-page-search').attr('data-search', 'sell');
 				parent.find('#home-page-search-form').attr('action', 'sell');
 			},
@@ -42,12 +50,15 @@ home = {
 			}
 		});
 
+<<<<<<< HEAD
+=======
 		$("#browse-btn").bind("click", function(){
 			var parent = $(this).parent();
 			parent.children('.arrow-up').animate({ marginLeft: '515px' }, 600);
 			parent.find('#home-page-search').attr('data-search', 'browse');
 			parent.find('#home-page-search-form').attr('action', 'browse');
 		});
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 	}
 }
 

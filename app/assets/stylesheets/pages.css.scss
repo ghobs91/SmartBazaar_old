@@ -6,7 +6,11 @@
   width: 600px;
   height: 200px;
   position: absolute;
+<<<<<<< HEAD
+  top: 15%;
+=======
   top: 0;
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
   bottom: 0;
   left: 0;
   right: 0;
@@ -17,6 +21,16 @@
 #home-page-header {
 	color: white;
 	text-align: center;
+<<<<<<< HEAD
+	position: relative;
+	text-shadow: 2px 2px #000000;
+	top: 200px;
+	font-size: 48px;
+}
+
+#buy-btn {
+	margin-left: 130px;
+=======
 	margin: 0 0 50px 0;
 	position: relative;
 	top: -80px;
@@ -25,12 +39,16 @@
 
 #buy-btn {
 	margin-right: 130px;
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 	text-shadow: 0px 1px 1px #ffffff;
 	border-bottom: 2px solid #b2b2b2;
 }
 
 
 #sell-btn {
+<<<<<<< HEAD
+	margin-left: 130px;
+=======
 	margin-right: 106px;
 	text-shadow: 0px 1px 1px #ffffff;
 	border-bottom: 2px solid #b2b2b2;
@@ -39,6 +57,7 @@
 
 #browse-btn {
 	margin-right: 0;
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 	text-shadow: 0px 1px 1px #ffffff;
 	border-bottom: 2px solid #b2b2b2;
 }
@@ -149,11 +168,21 @@ img.about-us {
 	padding-top: 350px;
 }
 
+<<<<<<< HEAD
+#about-page-side {
+	width: 30%;
+	height: 100%;
+}
+
+
+
+=======
 #about-page-paragraph {  
 	
 }
 
 
+>>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 #how-it-works {
 	font-family: Roboto, Helvetica, sans-serif;
 	width: 50%;

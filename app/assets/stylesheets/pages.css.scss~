@@ -85,6 +85,9 @@
 	border-radius: 4px;
 }
 
+#about-page {
+	height: 100%;
+}
 
 .about-page-header {
 	margin-left: 10%;
@@ -110,14 +113,6 @@
 	margin-right: auto;
 }
 
-#about-neil {
-	margin-left: 11%;
-	position: relative;
-	float: left;
-	width: 100%;
-	padding-bottom: 50px;
-	margin-right: auto;
-}
 
 img.icon-links {
 	margin-top: 5px;

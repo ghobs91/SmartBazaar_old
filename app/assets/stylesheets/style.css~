@@ -138,6 +138,5 @@ ul {
 	border-bottom: 15px solid white;
 	margin-top: -45px;
 	margin-left: 168px;
-	margin-left: 35px;
 	position: relative;
 }

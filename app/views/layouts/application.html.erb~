@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Denarri</title>
+  <title>Denarri - Make Shopping a Conversation</title>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -16,7 +16,6 @@
 			<li><a href="/">Denarri</a></li>
 			<li><a href="/about">About Us</a></li>
 			<li><a href="/how">How It Works</a></li>
-			<li><a href="/browse">Browse</a></li>
 			<div class="pull-right">
 			<% if user_signed_in? %>
 				<li><%= link_to "#{current_user.email}", users_show_path(:id => current_user.id) %></li>

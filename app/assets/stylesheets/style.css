@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 body {
 	font-family: "Raleway", Roboto, Sans-serif;
@@ -11,7 +10,7 @@ body#home-page {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-=======
+
 body {
 	font-family: Roboto, Arial;
 	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/low_contrast_linen.png");
@@ -21,7 +20,6 @@ body#home-page {
 	background-image: url("https://raw.github.com/ghobs91/Denarri/master/app/assets/images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
->>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 }
 
 ul {
@@ -85,10 +83,7 @@ ul {
 #nav-bar li {
 	display: inline;
 	padding-right: 5px;
-<<<<<<< HEAD
 	text-decoration: none;
-=======
->>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 }
 
 #nav-bar > ul li + li {
@@ -103,10 +98,7 @@ ul {
 
 #content {
 	color: white;
-<<<<<<< HEAD
 	text-decoration: none;
-=======
->>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 }
 
 #content a {
@@ -117,7 +109,6 @@ ul {
 	background-color: white;
 	margin-top: 20px;
 	padding-left: 20px;
-<<<<<<< HEAD
 	text-decoration: none;
 }
 
@@ -129,8 +120,6 @@ ul {
 #nav-bar a:visited {
 	color: #000000;
 	text-decoration: none;
-=======
->>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 }
 
 .shadow {
@@ -155,10 +144,7 @@ ul {
 	border-right: 18px solid transparent;
 	border-bottom: 15px solid white;
 	margin-top: -45px;
-<<<<<<< HEAD
 	margin-left: 168px;
-=======
 	margin-left: 35px;
->>>>>>> e426d895a0e1431d242af7e74ee8367559dce150
 	position: relative;
 }

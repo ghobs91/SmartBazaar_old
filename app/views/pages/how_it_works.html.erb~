@@ -4,44 +4,44 @@
 
 <div id='how-it-works'>
 	<h1 id='how-page-header'>How It Works</h1>
+	<!-- will be implemented in Phase II
+	
 	<a href="#" id='buy-btn' class='button home-button shadow' target='_self'>Buyer</a>
-	<a href="#" id='sell-btn' class='button home-button shadow' target='_self'>Seller</a>
+	<a href="#" id='sell-btn' class='button home-button shadow' target='_self'>Seller</a> -->
    
 	<div id = 'how-buyer'>
-		<div id='search'>
-			<h1 id='search-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/magnifying_glass_black.png' width = '75px' height='100px' class="align-right" />Search</h1>
-			<p id='search-paragraph'>Look for your item using keywords</p>
-		</div>
-		<div id='customize'> 
-			<h1 id='customize-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/Sign-CheckBox01.png' width = '75px' height='75px' class="align-right" />Customize</h1>
-			<p id='customize-paragraph'>Pick a price range, whether you want it new or used, and even choose to be matched with only nearby sellers to get your item ASAP</p>
-		</div>
-		<div id='get-matched'>
-			<h1 id='get-matched-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/handshake.png' width = '130px' height='130px' class="align-right" />Get Matched</h1>
-			<ul id='get-matched-paragraph'>
-				<li>-We do the rest!</li>
-				<li>-When we find the items that best fit your preferences, we will notify you.</li>
-				<li>-If you find an item you like, just confirm and pay!</li>
-			</ul>
-		</div>
-		<div id='enjoy'>
-			<h1 id='enjoy-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/package.jpg' width = '130px' height='130px' class="align-right" />Enjoy Your New Item!</h1>
-			<ul id='enjoy-paragraph'>
-				<li>-The days of losing a week-long auction are finally over!</li>
-				<li>-With Denarri, there's no need to keep track of confusing auctions or browsing every day until you finally find someone selling what you want at the price you want.</li>
-				<li>-From your wishlist to your doorstep faster than you can say antidisestablishmentarianism!</li>
-			</ul>
-		</div>
-	</div>
+                <div id='search'>
+                        <h1 id='search-header'><img src='http://i.imgur.com/ZwEjL98.png?1' width="220" height="220" class="align-right" class="align-middle" />Search</h1>
+                        <p id='search-paragraph'>Look for your item using keywords</p>
+                </div>
+                <div id='customize'> 
+                        <h1 id='customize-header'><img src="http://i.imgur.com/QjfeiIA.png?1" width="220" height="220" class="align-left" class="align-middle" />Customize</h1>
+                        <p id='customize-paragraph'>Pick a price range, whether you want it new or used, and even choose to only be matched with domestic sellers to get your item ASAP. </p>
+                </div>
+                <div id='get-matched'>
+                        <h1 id='get-matched-header'><img src="http://i.imgur.com/3KKvkZD.png?1" width="220" height="220" class="align-right" class="align-middle" />Get Matched</h1>
+                        <p id='get-matched-paragraph'>
+                                We do the rest! When we find the items that best fit your preferences, we will notify you immediately. If you don’t like the initial matches, or if matches can’t be found right away, Denarri will keep a lookout and let you know when new matches are listed. Doesn’t get any easier than that. 
+                        </p>
+                </div>
+                <div id='enjoy'>
+                        <h1 id='enjoy-header'><img src="http://i.imgur.com/md1NTPS.png?1" width="220" height="220" class="align-left" class="align-middle" />Enjoy Your New Item!</h1>
+                        <p id='enjoy-paragraph'>
+                                Once you confirm the match, you’ll simply pay for the item, and it’ll be at your doorstep in no time. You didn’t need to keep track of unpredictable  auctions, or browse every day until you found what you were looking for. How awesome is that?
+                        </p>
+                </div>
+        </div>
 
-	<div id = 'how-seller'>
+<!-- will be implemented in Phase II
+
+<div id = 'how-seller'>
 		<div id='search'>
 			<h1 id='search-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/magnifying_glass_black.png' width = '75px' height='100px' class="align-right" />Search</h1>
 			<p id='search-paragraph'>Just type in your item's name and Denarri will autofill some fields to get you started.</p>
 		</div>
 		<div id='customize'> 
 			<h1 id='customize-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/Sign-CheckBox01.png' width = '75px' height='75px' class="align-right" />Tell Buyers about your Item</h1>
-			<p id='customize-paragraph'>Simply pick your price, list any important info, upload some awesome pictures, and finally choose your shippping price. We think charging for things like item pictures is silly, so upload away!</p>
+			<p id='customize-paragraph'>Simply pick your price, list any important info, upload some awesome pictures, and finally choose your shipping price. We think charging for things like item pictures is silly, so upload away!</p>
 		</div>
 		<div id='get-matched'>
 			<h1 id='get-matched-header'><img src='https://raw.github.com/ghobs91/Denarri/master/app/assets/images/handshake.png' width = '130px' height='130px' class="align-right" />Get Matched</h1>
@@ -59,5 +59,8 @@
 			</ul>
 		</div>
 	</div>
-
+-->
 </div>
+
+
+

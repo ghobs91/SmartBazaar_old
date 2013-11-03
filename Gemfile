@@ -45,6 +45,12 @@ gem 'devise', '3.0.0.rc'
 # serving static assets with rails 4 and logging
 gem 'rails_12factor'
 
+#Use heroku as hosted platform
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

@@ -17,7 +17,7 @@ Denarri::Application.routes.draw do
 
   get 'buy' => 'search#buy'
   get 'sell' => 'search#sell'
-
+  get 'browse' => 'search#browse'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -8,20 +8,26 @@
 
 #buy-page {
 	font-size: 115%;
-	width: 30%;
+	color: black;
+	width: 35%;
 	border-style:none;
 	float: left;
+	position: absolute;
+	z-index: -1;
+	background: white;
+
 }
 
 #recently-sold {
-	float: left;
+	float: right;
 	width: 60%;
 	text-align: center;
 }
 
 .title {
-	margin-right: 15px;
+	margin-right: 20px;
 	margin-left: 20px;
+	font-family: Raleway, Roboto, Sans-serif;
 }
 
 fieldset {
@@ -29,13 +35,18 @@ fieldset {
 }
 
 #item-name {
-	margin-top: 50px;	
+	font-size: 250%;
+	font-family: Raleway, Roboto, Sans-serif;
+	text-transform:capitalize;
+	margin-top: 75px;
+	margin-left: 100px;	
+	margin-bottom: -100px;
 }
 
 #price {
+	margin-top: 100px;
 	position: relative;
-	margin-bottom: 40px;
-	margin-top: 35px;
+	
 }
 
 #condition {
@@ -45,16 +56,25 @@ fieldset {
 
 #distance {
 	position: relative;
+	display: inline-block;
+   	text-align: right;
 	margin-bottom: 50px;
 }
 
+#buy-filters {
+	width: 65%;
+	float: right;
+}
+
 #buy-filters ul {
+	color:black;
 	list-style-type: none;
 	margin: 0;
 	padding: 5px;
 	text-align: right;
 	margin-right: 20%;
 	font-size: 120%;
+	
 }
 
 #buy-filters ul li {
@@ -126,10 +146,6 @@ input[type="text"] {
 	width: 100%;
 }
 
-#item-name {
-	width: 33%;
-	float: left;
-}
 
 #description-seller {
 	width: 33%;
